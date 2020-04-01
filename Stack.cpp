@@ -93,39 +93,15 @@ T Stack<T>::pop() {
 	catch (std::exception & exc) {
 		std::cerr << exc.what();
 	}
-	//if (isEmpty()) {
-	//	std::cout << "isEmpty: Stack Empty\n";
-	//	exit(1);
-	//}
-	//return data[--top];
-
 }
 
 template <class T>
 T Stack<T>::stackTop() {
-	/*if (isEmpty()) {
-		std::cout << "stackTop: Stack Empty\n";
-		exit(1);
-	}*/
 	try {
 		return data[top - 1];
 	}
 	catch (std::exception & exc) {
 		std::cerr << exc.what();
 	}
-	//return data[top-1];
 }
-
-//template <class T>
-//void Stack<T>::displayStatus() {
-//	cout << "Capacity: " << capacity
-//		<< "\nTop: " << top
-//		<< "\nData: ";
-//	for (int i = 0; i < this->getNumberOfElements(); i++) {
-//		cout << data[i] << ", ";
-//	}
-//	if(isFull())
-//		cout << "\n(Stack Full)\n";
-//}
-
 #endif
