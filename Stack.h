@@ -1,7 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
 
-
 template <class T>
 class Stack
 {
@@ -22,7 +21,6 @@ public:
 	void push(T);
 	T pop();
 	T stackTop();
-	//		void displayStatus();
 };
 #include "Stack.cpp"
 #endif
