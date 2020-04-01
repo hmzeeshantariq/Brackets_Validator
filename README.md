@@ -1,2 +1,2 @@
 # Brackets_Validator
-A C++ based app to verify brackets
+A C++ based console app to verify brackets
